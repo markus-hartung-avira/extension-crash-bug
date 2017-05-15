@@ -1,0 +1,22 @@
+{
+  "name": "extension-crash-bug",
+  "version": "1.0.0",
+  "description": "The extension will inject an iframe wiht source iframe.html into every page and redirect\r any request to example.com to redirect.html.",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markus-hartung-avira/extension-crash-bug.git"
+  },
+  "author": "Markus Hartung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markus-hartung-avira/extension-crash-bug/issues"
+  },
+  "homepage": "https://github.com/markus-hartung-avira/extension-crash-bug#readme",
+  "devDependencies": {
+    "selenium-webdriver": "~3.4.0"
+  }
+}

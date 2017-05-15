@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "author": "Markus Hartung",
+  "name": "Extension Crash Bug",
+  "description": "Demonstrates an iframe extension bug",
+  "version": "1.0.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [{
+    "matches": [
+      "*://*/*"
+    ],
+    "js": [
+      "content.js"
+    ]
+  }],
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "web_accessible_resources": [
+    "iframe.html",
+    "redirect.html"
+  ]
+}
