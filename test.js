@@ -1,4 +1,5 @@
 const path = require('path');
+require('chromedriver');
 
 const webdriver = require('selenium-webdriver');
 const chrome = require('selenium-webdriver/chrome');
@@ -16,4 +17,3 @@ driver.get('http://www.example.org');
 // this page will be redirected to an extension page and subsequently the extension will
 // crash, adding a delay here will not change the behavior
 driver.get('http://www.example.com');
-

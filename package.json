@@ -18,5 +18,8 @@
   "homepage": "https://github.com/markus-hartung-avira/extension-crash-bug#readme",
   "devDependencies": {
     "selenium-webdriver": "~3.4.0"
+  },
+  "dependencies": {
+    "chromedriver": "^2.40.0"
   }
 }
